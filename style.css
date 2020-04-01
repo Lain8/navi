@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+
+    max-width:1280px;
+    
+    min-height:100%;
+    
+    margin:0 auto;
+    
+    position:relative;
+}
+body{
+    
+    width: 100%;
+    min-width: 930px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+corps{
+    width: 1139px;
+    height: 100%;
+}
+
+#nav_top{
+    display:flex;
+    flex-direction: row-reverse;
+    position: 1;
+    margin: 1em 2em 1em 1em;
+
+}
+#gmail, #image, #app {
+
+    display: inline-block;
+    color: rgba(0,0,0,0.87);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px;
+}
+
+#co{
+    padding: 12px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4285f4;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+#boite_logo{
+
+    height: 120px;
+    margin-top: 100px;
+    text-align  : center;
+    padding: 70px 0px 0px 0px ;
+
+}
+
+#logo_google{
+    
+    width: 272px;
+    height: 91px;
+
+
+}
+
+
+
+.barre{
+    display: flex;
+    border: 1px solid black;
+    height: 4em;
+    margin: 0% 35% 0% 35%;
+    border-radius: 50px 50px; 
+    justify-content: space-between;
+
+    
+}
+
+.barre:hover{
+    box-shadow: bl  ack;
+}
+
+.navbarre{
+
+    width:600px
+}
+
+.search{
+
+    margin-left: 5px;
+    border: none;
+    width: 450px;
+    height: 100%;
+
+
+}
+.search:hover:active{
+    border: none;
+}
+
+.droite, .gauche{
+    width: 2em;
+
+}
+
+.droite {
+    margin-right: 15px;
+    padding-top: 10px;
+}
+
+.gauche {
+
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+#conteneur_barre_bouton{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+#barrebouton{
+    display: flex;
+    height: 4em;
+    margin: 2em 0% 0% 0%;
+    justify-content: space-between;
+    width: 20%;
+    align-items: center;
+
+}
+
+#recherche, #chance{
+ 
+    width: 30%;;
+    padding: 10px 20px 10px 20px ;
+    background-color: #f2f2f2;
+    color: rgb(95, 99, 104);
+    font-size: 14px;
+}
+
+#boite_tw{
+    margin: 20px 40% 0px 40%;
+    display: flex;
+    width: 21%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+footer{
+    height: 10%;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+    background-color: #f2f2f2;
+    font-size: 15px;
+
+}
+
+
+#column{
+    width: 100%;
+    display: flex;
+
+    width: 100%;
+    flex-direction: column;
+
+}
+
+#france{
+    height: 50%;
+    padding: 1.5em 0px 0px 30px;
+    color: rgb(34, 34, 34);
+
+}
+
+#footer{
+    height: 50%;
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+    flex-direction: row;    
+    justify-content: space-between;
+}
+
+#footer1, #footer2{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+
+
+    
+#publicite  ,#entreprise, #a_propos, #recherche_google, #pub_judiciaire, #info_consommateurs, #confidentialite, #condition, #parametres{
+    
+        color: rgb(34, 34, 34);
+
+    padding: 10px 2em 10px 2em;
+
+}
