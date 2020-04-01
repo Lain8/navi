@@ -98,12 +98,13 @@ corps{
     border: none;
     width: 450px;
     height: 100%;
-    outline: none;
+
 
 
 }
 .search:hover:active{
     border: none;
+    outline: none;
 }
 
 .droite, .gauche{
