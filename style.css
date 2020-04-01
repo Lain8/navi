@@ -74,7 +74,7 @@ corps{
 
 .barre{
     display: flex;
-    border: 1px solid black;
+    border: 1px solid #dfe1e5;
     height: 4em;
     margin: 0% 35% 0% 35%;
     border-radius: 50px 50px; 
@@ -84,7 +84,7 @@ corps{
 }
 
 .barre:hover{
-    box-shadow: bl  ack;
+    box-shadow: 0px 0px 1px black;
 }
 
 .navbarre{
@@ -98,7 +98,8 @@ corps{
     border: none;
     width: 450px;
     height: 100%;
-
+    outline: none;
+    font-size: large;
 
 
 }
@@ -119,8 +120,11 @@ corps{
 
 .gauche {
 
+
     padding-top: 10px;
     margin-left: 10px;
+    margin-right: 10px;
+    color: #9AA0A6;
 }
 
 #conteneur_barre_bouton{
