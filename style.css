@@ -55,7 +55,7 @@ corps{
 
 #boite_logo{
 
-    height: 120px;
+    height: 11em;
     margin-top: 100px;
     text-align  : center;
     padding: 70px 0px 0px 0px ;
@@ -76,7 +76,7 @@ corps{
     display: flex;
     border: 1px solid #dfe1e5;
     height: 4em;
-    margin: 0% 35% 0% 35%;
+    margin:0% 30% 0% 30%;
     border-radius: 50px 50px; 
     justify-content: space-between;
 
